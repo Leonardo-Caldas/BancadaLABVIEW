@@ -38,6 +38,7 @@
 				<Item Name="Get Scale Labels.vi" Type="VI" URL="../subVIs/Get Scale Labels.vi"/>
 				<Item Name="Incorporate New Data.vi" Type="VI" URL="../subVIs/Incorporate New Data.vi"/>
 				<Item Name="Load Configuration Settings from XML.vi" Type="VI" URL="../subVIs/Load Configuration Settings from XML.vi"/>
+				<Item Name="Message Queue.lvlib" Type="Library" URL="../../../../../../LabVIEW Data/Untitled Project 1/support/Message Queue/Message Queue.lvlib"/>
 				<Item Name="Save Configuration Settings to XML.vi" Type="VI" URL="../subVIs/Save Configuration Settings to XML.vi"/>
 				<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../subVIs/Set Enable State on Multiple Controls.vi"/>
 			</Item>
@@ -559,6 +560,10 @@
 			</Item>
 			<Item Name="Get_Latest_TDMS.vi" Type="VI" URL="../../../Get_Latest_TDMS.vi"/>
 			<Item Name="name_file_by_time_stamp.vi" Type="VI" URL="../../../name_file_by_time_stamp.vi"/>
+			<Item Name="Acquisition.lvlib" Type="Library" URL="../../ContinuousMeasurement/Acquisition/Acquisition.lvlib"/>
+			<Item Name="Hardware Configuration.ctl" Type="VI" URL="../../ContinuousMeasurement/Acquisition/Hardware Configuration.ctl"/>
+			<Item Name="Message Queue.lvlib" Type="Library" URL="../../ContinuousMeasurement/support/Message Queue/Message Queue.lvlib"/>
+			<Item Name="Check Loop Error.vi" Type="VI" URL="../../ContinuousMeasurement/support/Check Loop Error.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Finite Measurement (NI-DAQmx)" Type="EXE">

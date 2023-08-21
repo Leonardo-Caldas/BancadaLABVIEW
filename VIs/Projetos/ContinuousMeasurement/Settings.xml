@@ -1,0 +1,83 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>22.3.1f8</Version>
+<Cluster>
+<Name>Settings in</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Logging Configuration</Name>
+<NumElts>9</NumElts>
+<Path>
+<Name>Log File Base Path</Name>
+<Val>C:\Users\LAV-UFSC-2023\Documents\LAV-TCC\Dados-Experimentos\Dados-Bancada-LABVIEW</Val>
+</Path>
+<Refnum>
+<Name>TDMS File Reference</Name>
+<RefKind>TDMS File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<U32>
+<Name>Samples to Save</Name>
+<Val>206000</Val>
+</U32>
+<U32>
+<Name>Trigger - Time</Name>
+<Val>0</Val>
+</U32>
+<DBL>
+<Name>Trigger - Threshold</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Trigger - Channel</Name>
+<Val>0</Val>
+</U32>
+<Boolean>
+<Name>Enable Time Trigger</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Enable Threshold Trigger</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Always Log</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Hardware Configuration</Name>
+<NumElts>7</NumElts>
+<Boolean>
+<Name>Accel-ai0</Name>
+<Val>1</Val>
+</Boolean>
+<DBL>
+<Name>Maximum Input</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Minimum Input</Name>
+<Val>-5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sample Rate</Name>
+<Val>41199.99999999999990</Val>
+</DBL>
+<I32>
+<Name>Number of Samples</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>Accel-ai1</Name>
+<Val>1</Val>
+</Boolean>
+<Refnum>
+<Name>DAQmx Task</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+</Cluster>
+</Cluster>
+</LVData>
