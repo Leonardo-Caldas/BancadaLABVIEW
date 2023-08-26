@@ -6,10 +6,10 @@
 <NumElts>2</NumElts>
 <Cluster>
 <Name>Logging Configuration</Name>
-<NumElts>9</NumElts>
+<NumElts>10</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\LAV-UFSC-2023\Documents\LAV-TCC\Dados-Experimentos\Dados-Bancada-LABVIEW\teste.txt</Val>
+<Val>C:\Users\LAV-UFSC-2023\Documents\LabVIEW Data\Logged Data.tdms</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>
@@ -18,11 +18,11 @@
 </Refnum>
 <U32>
 <Name>Samples to Save</Name>
-<Val>41200</Val>
+<Val>163840</Val>
 </U32>
 <U32>
 <Name>Trigger - Time</Name>
-<Val>1</Val>
+<Val>40</Val>
 </U32>
 <DBL>
 <Name>Trigger - Threshold</Name>
@@ -44,6 +44,10 @@
 <Name>Always Log</Name>
 <Val>0</Val>
 </Boolean>
+<I16>
+<Name>FFT - Block Size</Name>
+<Val>4096</Val>
+</I16>
 </Cluster>
 <Cluster>
 <Name>Hardware Configuration</Name>

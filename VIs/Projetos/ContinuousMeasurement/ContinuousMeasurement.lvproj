@@ -41,6 +41,7 @@
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Settings.xml" Type="Document" URL="../Settings.xml"/>
 		<Item Name="Two-Sided-Spectrum-To-One-Sided.vi" Type="VI" URL="../support/Two-Sided-Spectrum-To-One-Sided.vi"/>
+		<Item Name="TDMS-Refs.ctl" Type="VI" URL="../support/TDMS-Refs.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
