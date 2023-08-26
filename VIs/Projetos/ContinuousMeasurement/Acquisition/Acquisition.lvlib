@@ -13,7 +13,7 @@
 		<Item Name="Hardware Configuration.ctl" Type="VI" URL="../../../FiniteMeasurement-DAQmx/controls/Hardware Configuration.ctl"/>
 	</Item>
 	<Item Name="Acquisition Message Loop.vi" Type="VI" URL="../Acquisition Message Loop.vi"/>
-	<Item Name="Initialize Hardware References.vi" Type="VI" URL="../Initialize Hardware References.vi"/>
+	<Item Name="Initialize DAQmx Channels.vi" Type="VI" URL="../Initialize DAQmx Channels.vi"/>
 	<Item Name="Configure Hardware.vi" Type="VI" URL="../Configure Hardware.vi"/>
 	<Item Name="Acquire.vi" Type="VI" URL="../Acquire.vi"/>
 	<Item Name="Stop Acquisition.vi" Type="VI" URL="../Stop Acquisition.vi"/>

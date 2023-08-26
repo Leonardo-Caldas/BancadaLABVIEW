@@ -44,6 +44,7 @@
 			</Item>
 			<Item Name="AccelerometerSettings.ctl" Type="VI" URL="../controls/AccelerometerSettings.ctl"/>
 			<Item Name="Acquire Data from Hardware.vi" Type="VI" URL="../subVIs/Acquire Data from Hardware.vi"/>
+			<Item Name="ComputeFFT.vi" Type="VI" URL="../controls/ComputeFFT.vi"/>
 			<Item Name="Copy Graph to Clipboard.vi" Type="VI" URL="../subVIs/Copy Graph to Clipboard.vi"/>
 			<Item Name="Export Data.vi" Type="VI" URL="../subVIs/Export Data.vi"/>
 			<Item Name="Load Data.vi" Type="VI" URL="../subVIs/Load Data.vi"/>
@@ -551,6 +552,9 @@
 				<Item Name="CloseDataStorageRefnum.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/CloseDataStorageRefnum.vi"/>
 				<Item Name="CloseDataObjectRefnum.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/CloseDataObjectRefnum.vi"/>
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -561,9 +565,9 @@
 			<Item Name="Get_Latest_TDMS.vi" Type="VI" URL="../../../Get_Latest_TDMS.vi"/>
 			<Item Name="name_file_by_time_stamp.vi" Type="VI" URL="../../../name_file_by_time_stamp.vi"/>
 			<Item Name="Acquisition.lvlib" Type="Library" URL="../../ContinuousMeasurement/Acquisition/Acquisition.lvlib"/>
-			<Item Name="Hardware Configuration.ctl" Type="VI" URL="../../ContinuousMeasurement/Acquisition/Hardware Configuration.ctl"/>
 			<Item Name="Message Queue.lvlib" Type="Library" URL="../../ContinuousMeasurement/support/Message Queue/Message Queue.lvlib"/>
 			<Item Name="Check Loop Error.vi" Type="VI" URL="../../ContinuousMeasurement/support/Check Loop Error.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Finite Measurement (NI-DAQmx)" Type="EXE">

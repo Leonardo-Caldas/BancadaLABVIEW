@@ -31,12 +31,16 @@
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 			<Item Name="UI State.ctl" Type="VI" URL="../controls/UI State.ctl"/>
+			<Item Name="DataNotifier.ctl" Type="VI" URL="../Logging/DataNotifier.ctl"/>
+			<Item Name="LoggedData.ctl" Type="VI" URL="../Logging/LoggedData.ctl"/>
+			<Item Name="DataQueue.ctl" Type="VI" URL="../Logging/DataQueue.ctl"/>
 		</Item>
 		<Item Name="Acquisition.lvlib" Type="Library" URL="../Acquisition/Acquisition.lvlib"/>
 		<Item Name="Logging.lvlib" Type="Library" URL="../Logging/Logging.lvlib"/>
 		<Item Name="Settings.lvlib" Type="Library" URL="../Settings/Settings.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Settings.xml" Type="Document" URL="../Settings.xml"/>
+		<Item Name="Two-Sided-Spectrum-To-One-Sided.vi" Type="VI" URL="../support/Two-Sided-Spectrum-To-One-Sided.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>

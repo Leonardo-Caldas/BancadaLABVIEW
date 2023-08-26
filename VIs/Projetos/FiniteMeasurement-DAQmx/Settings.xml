@@ -6,18 +6,18 @@
 <NumElts>3</NumElts>
 <Cluster>
 <Name>Hardware Configuration</Name>
-<NumElts>6</NumElts>
+<NumElts>7</NumElts>
 <Boolean>
 <Name>Accel-ai0</Name>
 <Val>1</Val>
 </Boolean>
 <DBL>
 <Name>Maximum Input</Name>
-<Val>5.00000000000000</Val>
+<Val>10.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Minimum Input</Name>
-<Val>-5.00000000000000</Val>
+<Val>-10.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Sample Rate</Name>
@@ -31,6 +31,12 @@
 <Name>Accel-ai1</Name>
 <Val>1</Val>
 </Boolean>
+<Refnum>
+<Name>DAQmx Task</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
 </Cluster>
 <Cluster>
 <Name>Analysis Configuration</Name>
@@ -45,7 +51,7 @@
 <Choice>Replace</Choice>
 <Choice>Overlay</Choice>
 <Choice>Append</Choice>
-<Val>1</Val>
+<Val>2</Val>
 </EW>
 </Cluster>
 </LVData>

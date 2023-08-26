@@ -9,7 +9,7 @@
 <NumElts>9</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\LAV-UFSC-2023\Documents\LAV-TCC\Dados-Experimentos\Dados-Bancada-LABVIEW</Val>
+<Val>C:\Users\LAV-UFSC-2023\Documents\LAV-TCC\Dados-Experimentos\Dados-Bancada-LABVIEW\teste.txt</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>
@@ -18,11 +18,11 @@
 </Refnum>
 <U32>
 <Name>Samples to Save</Name>
-<Val>206000</Val>
+<Val>41200</Val>
 </U32>
 <U32>
 <Name>Trigger - Time</Name>
-<Val>0</Val>
+<Val>1</Val>
 </U32>
 <DBL>
 <Name>Trigger - Threshold</Name>
@@ -34,7 +34,7 @@
 </U32>
 <Boolean>
 <Name>Enable Time Trigger</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Enable Threshold Trigger</Name>
@@ -42,7 +42,7 @@
 </Boolean>
 <Boolean>
 <Name>Always Log</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 </Cluster>
 <Cluster>
@@ -54,15 +54,15 @@
 </Boolean>
 <DBL>
 <Name>Maximum Input</Name>
-<Val>5.00000000000000</Val>
+<Val>10.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Minimum Input</Name>
-<Val>-5.00000000000000</Val>
+<Val>-10.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Sample Rate</Name>
-<Val>41199.99999999999990</Val>
+<Val>16384.00000000000000</Val>
 </DBL>
 <I32>
 <Name>Number of Samples</Name>
