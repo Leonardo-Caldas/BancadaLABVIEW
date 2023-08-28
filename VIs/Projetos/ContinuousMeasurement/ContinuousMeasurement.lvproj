@@ -27,12 +27,15 @@
 			<Item Name="Check Loop Error.vi" Type="VI" URL="../support/Check Loop Error.vi"/>
 			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
+			<Item Name="CalculateFFT.vi" Type="VI" URL="../support/CalculateFFT.vi"/>
+			<Item Name="CalculateAveragedFFT.vi" Type="VI" URL="../support/CalculateAveragedFFT.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
+			<Item Name="TDMS-Refs.ctl" Type="VI" URL="../support/TDMS-Refs.ctl"/>
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 			<Item Name="UI State.ctl" Type="VI" URL="../controls/UI State.ctl"/>
 			<Item Name="DataNotifier.ctl" Type="VI" URL="../Logging/DataNotifier.ctl"/>
-			<Item Name="LoggedData.ctl" Type="VI" URL="../Logging/LoggedData.ctl"/>
+			<Item Name="QueuedLoggedData.ctl" Type="VI" URL="../Logging/QueuedLoggedData.ctl"/>
 			<Item Name="DataQueue.ctl" Type="VI" URL="../Logging/DataQueue.ctl"/>
 		</Item>
 		<Item Name="Acquisition.lvlib" Type="Library" URL="../Acquisition/Acquisition.lvlib"/>
@@ -40,8 +43,7 @@
 		<Item Name="Settings.lvlib" Type="Library" URL="../Settings/Settings.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Settings.xml" Type="Document" URL="../Settings.xml"/>
-		<Item Name="Two-Sided-Spectrum-To-One-Sided.vi" Type="VI" URL="../support/Two-Sided-Spectrum-To-One-Sided.vi"/>
-		<Item Name="TDMS-Refs.ctl" Type="VI" URL="../support/TDMS-Refs.ctl"/>
+		<Item Name="FFT-Data.ctl" Type="VI" URL="../FFT-Data.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
@@ -260,6 +262,9 @@
 			</Item>
 			<Item Name="Hardware Configuration.ctl" Type="VI" URL="../Acquisition/Hardware Configuration.ctl"/>
 			<Item Name="AccelerometerSettings.ctl" Type="VI" URL="../../FiniteMeasurement-DAQmx/controls/AccelerometerSettings.ctl"/>
+			<Item Name="LogFrequencyDomainData.vi" Type="VI" URL="../Logging/LogFrequencyDomainData.vi"/>
+			<Item Name="Preview Message.vi" Type="VI" URL="../support/Message Queue/Preview Message.vi"/>
+			<Item Name="Flush Data to TXT File.vi" Type="VI" URL="../Logging/Flush Data to TXT File.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Continuous Measurement and Logging (NI-DAQmx)" Type="EXE">

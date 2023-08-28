@@ -6,23 +6,18 @@
 <NumElts>2</NumElts>
 <Cluster>
 <Name>Logging Configuration</Name>
-<NumElts>10</NumElts>
+<NumElts>14</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\LAV-UFSC-2023\Documents\LabVIEW Data\Logged Data.tdms</Val>
+<Val>C:\Users\LAV-UFSC-2023\Documents\LAV-TCC\Dados-Experimentos\Dados-Bancada-LABVIEW\teste</Val>
 </Path>
-<Refnum>
-<Name>TDMS File Reference</Name>
-<RefKind>TDMS File</RefKind>
-<Val>0x00000000</Val>
-</Refnum>
 <U32>
 <Name>Samples to Save</Name>
-<Val>163840</Val>
+<Val>16384</Val>
 </U32>
 <U32>
 <Name>Trigger - Time</Name>
-<Val>40</Val>
+<Val>5</Val>
 </U32>
 <DBL>
 <Name>Trigger - Threshold</Name>
@@ -44,10 +39,47 @@
 <Name>Always Log</Name>
 <Val>0</Val>
 </Boolean>
-<I16>
+<I32>
 <Name>FFT - Block Size</Name>
-<Val>4096</Val>
-</I16>
+<Val>1024</Val>
+</I32>
+<Cluster>
+<Name>FilesRefs</Name>
+<NumElts>3</NumElts>
+<Refnum>
+<Name>TimeDomainTDMSRef</Name>
+<RefKind>TDMS File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>FreuencyDomainTDMSRef</Name>
+<RefKind>TDMS File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>TXT-FileRef</Name>
+<RefKind>Byte Stream File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+</Cluster>
+<I32>
+<Name>FFT - NumberOfAverages</Name>
+<Val>5</Val>
+</I32>
+<EW>
+<Name>OutputFileFormat</Name>
+<Choice>TXT</Choice>
+<Choice>TDMS</Choice>
+<Val>0</Val>
+</EW>
+<I32>
+<Name>ActualBlockSize</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>HasBeenTriggeredAlready</Name>
+<Val>0</Val>
+</Boolean>
 </Cluster>
 <Cluster>
 <Name>Hardware Configuration</Name>
