@@ -13,7 +13,7 @@
 </Path>
 <U32>
 <Name>Samples to Save</Name>
-<Val>16384</Val>
+<Val>10240</Val>
 </U32>
 <U32>
 <Name>Trigger - Time</Name>
@@ -64,7 +64,7 @@
 </Cluster>
 <I32>
 <Name>FFT - NumberOfAverages</Name>
-<Val>5</Val>
+<Val>2</Val>
 </I32>
 <EW>
 <Name>OutputFileFormat</Name>
@@ -98,7 +98,7 @@
 </DBL>
 <DBL>
 <Name>Sample Rate</Name>
-<Val>16384.00000000000000</Val>
+<Val>1024.00000000000000</Val>
 </DBL>
 <I32>
 <Name>Number of Samples</Name>

@@ -1,0 +1,3 @@
+feat: modified trigger units from minutes to seconds; included BlockSize to the Configurations; 
+
+to do: move fft from main to logging and adapt tdms file for it (separate files for time domain and frequency domain)
