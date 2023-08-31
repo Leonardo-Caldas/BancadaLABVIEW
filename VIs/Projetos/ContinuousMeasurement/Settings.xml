@@ -13,7 +13,7 @@
 </Path>
 <U32>
 <Name>Samples to Save</Name>
-<Val>10240</Val>
+<Val>5120</Val>
 </U32>
 <U32>
 <Name>Trigger - Time</Name>
@@ -41,7 +41,7 @@
 </Boolean>
 <I32>
 <Name>FFT - Block Size</Name>
-<Val>1024</Val>
+<Val>256</Val>
 </I32>
 <Cluster>
 <Name>FilesRefs</Name>
