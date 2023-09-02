@@ -44,6 +44,8 @@
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Settings.xml" Type="Document" URL="../Settings.xml"/>
 		<Item Name="FFT-Data.ctl" Type="VI" URL="../FFT-Data.ctl"/>
+		<Item Name="Flush Data to TXT File.vi" Type="VI" URL="../Logging/Flush Data to TXT File.vi"/>
+		<Item Name="Array of Accelerometers Data.ctl" Type="VI" URL="../Array of Accelerometers Data.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
@@ -255,6 +257,8 @@
 				<Item Name="DAQmx Read (Power 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D DBL NChan NSamp).vi"/>
 				<Item Name="DAQmx Read (Power 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL NChan 1Samp).vi"/>
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
+				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
@@ -263,8 +267,8 @@
 			<Item Name="Hardware Configuration.ctl" Type="VI" URL="../Acquisition/Hardware Configuration.ctl"/>
 			<Item Name="AccelerometerSettings.ctl" Type="VI" URL="../../FiniteMeasurement-DAQmx/controls/AccelerometerSettings.ctl"/>
 			<Item Name="LogFrequencyDomainData.vi" Type="VI" URL="../Logging/LogFrequencyDomainData.vi"/>
+			<Item Name="WhiteNoise.ctl" Type="VI" URL="../../../WhiteNoise.ctl"/>
 			<Item Name="Preview Message.vi" Type="VI" URL="../support/Message Queue/Preview Message.vi"/>
-			<Item Name="Flush Data to TXT File.vi" Type="VI" URL="../Logging/Flush Data to TXT File.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Continuous Measurement and Logging (NI-DAQmx)" Type="EXE">
