@@ -6,18 +6,34 @@
 <NumElts>2</NumElts>
 <Cluster>
 <Name>Logging Configuration</Name>
-<NumElts>14</NumElts>
+<NumElts>17</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\LAV-UFSC-2023\Documents\LAV-TCC\Dados-Experimentos\Dados-Bancada-LABVIEW\teste</Val>
+<Val>C:\Users\LAV-UFSC-2023\Documents\LAV-TCC\Dados-Experimentos\Dados-Bancada-LABVIEW\experimento</Val>
 </Path>
 <U32>
 <Name>Samples to Save</Name>
-<Val>5120</Val>
+<Val>51200</Val>
+</U32>
+<DBL>
+<Name>Acquisition Sample Rate</Name>
+<Val>5119.99999999999999</Val>
+</DBL>
+<U32>
+<Name>SamplesPerChannel</Name>
+<Val>0</Val>
 </U32>
 <U32>
+<Name>FFT - Block Size</Name>
+<Val>250</Val>
+</U32>
+<I32>
+<Name>FFT - NumberOfAverages</Name>
+<Val>2</Val>
+</I32>
+<U32>
 <Name>Trigger - Time</Name>
-<Val>5</Val>
+<Val>10</Val>
 </U32>
 <DBL>
 <Name>Trigger - Threshold</Name>
@@ -39,10 +55,10 @@
 <Name>Always Log</Name>
 <Val>0</Val>
 </Boolean>
-<I32>
-<Name>FFT - Block Size</Name>
-<Val>256</Val>
-</I32>
+<Boolean>
+<Name>Enable Filter</Name>
+<Val>0</Val>
+</Boolean>
 <Cluster>
 <Name>FilesRefs</Name>
 <NumElts>3</NumElts>
@@ -62,10 +78,6 @@
 <Val>0x00000000</Val>
 </Refnum>
 </Cluster>
-<I32>
-<Name>FFT - NumberOfAverages</Name>
-<Val>2</Val>
-</I32>
 <EW>
 <Name>OutputFileFormat</Name>
 <Choice>TXT</Choice>
@@ -83,7 +95,7 @@
 </Cluster>
 <Cluster>
 <Name>Hardware Configuration</Name>
-<NumElts>7</NumElts>
+<NumElts>8</NumElts>
 <Boolean>
 <Name>Accel-ai0</Name>
 <Val>1</Val>
@@ -98,7 +110,7 @@
 </DBL>
 <DBL>
 <Name>Sample Rate</Name>
-<Val>1024.00000000000000</Val>
+<Val>5119.99999999999999</Val>
 </DBL>
 <I32>
 <Name>Number of Samples</Name>
@@ -106,7 +118,7 @@
 </I32>
 <Boolean>
 <Name>Accel-ai1</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Refnum>
 <Name>DAQmx Task</Name>
@@ -114,6 +126,22 @@
 <RefType>NIDAQ</RefType>
 <Val></Val>
 </Refnum>
+<Cluster>
+<Name>Low Pass Filter</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>Upper Cutoff</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Lower Cutoff</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<I32>
+<Name>Order</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
 </Cluster>
 </Cluster>
 </LVData>

@@ -10,8 +10,10 @@
 	<Item Name="support" Type="Folder">
 		<Item Name="Settings.ctl" Type="VI" URL="../Settings.ctl"/>
 	</Item>
+	<Item Name="Controller Settings Dialog.vi" Type="VI" URL="../Controller Settings Dialog.vi"/>
 	<Item Name="Get Config File Path.vi" Type="VI" URL="../Get Config File Path.vi"/>
 	<Item Name="Load Settings from XML.vi" Type="VI" URL="../Load Settings from XML.vi"/>
+	<Item Name="Output Settings Dialog.vi" Type="VI" URL="../Output Settings Dialog.vi"/>
 	<Item Name="Save Settings to XML.vi" Type="VI" URL="../Save Settings to XML.vi"/>
 	<Item Name="Settings Dialog.vi" Type="VI" URL="../Settings Dialog.vi"/>
 </Library>
