@@ -25,7 +25,7 @@
 </U32>
 <U32>
 <Name>FFT - Block Size</Name>
-<Val>1250</Val>
+<Val>10240</Val>
 </U32>
 <I32>
 <Name>FFT - NumberOfAverages</Name>

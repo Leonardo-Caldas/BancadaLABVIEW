@@ -46,7 +46,6 @@
 		<Item Name="FFT-Data.ctl" Type="VI" URL="../FFT-Data.ctl"/>
 		<Item Name="Flush Data to TXT File.vi" Type="VI" URL="../Logging/Flush Data to TXT File.vi"/>
 		<Item Name="Array of Accelerometers Data.ctl" Type="VI" URL="../Array of Accelerometers Data.ctl"/>
-		<Item Name="AcquisitionFilter.ctl" Type="VI" URL="../AcquisitionFilter.ctl"/>
 		<Item Name="LowPassFilter.vi" Type="VI" URL="../LowPassFilter.vi"/>
 		<Item Name="Generate-Sound-PC-Out-WN.vi" Type="VI" URL="../../../Generate-Sound-PC-Out-WN.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">

@@ -11,6 +11,7 @@
 	<Item Name="support" Type="Folder">
 		<Item Name="Acquisition State.ctl" Type="VI" URL="../Acquisition State.ctl"/>
 		<Item Name="Hardware Configuration.ctl" Type="VI" URL="../../../FiniteMeasurement-DAQmx/controls/Hardware Configuration.ctl"/>
+		<Item Name="AcquisitionFilter.ctl" Type="VI" URL="../../AcquisitionFilter.ctl"/>
 	</Item>
 	<Item Name="Acquisition Message Loop.vi" Type="VI" URL="../Acquisition Message Loop.vi"/>
 	<Item Name="Initialize DAQmx Channels.vi" Type="VI" URL="../Initialize DAQmx Channels.vi"/>
