@@ -13,11 +13,11 @@
 </Path>
 <U32>
 <Name>Samples to Save</Name>
-<Val>512000</Val>
+<Val>10000</Val>
 </U32>
 <DBL>
 <Name>Acquisition Sample Rate</Name>
-<Val>51199.99999999999990</Val>
+<Val>1000.00000000000000</Val>
 </DBL>
 <U32>
 <Name>SamplesPerChannel</Name>
@@ -25,7 +25,7 @@
 </U32>
 <U32>
 <Name>FFT - Block Size</Name>
-<Val>10240</Val>
+<Val>250</Val>
 </U32>
 <I32>
 <Name>FFT - NumberOfAverages</Name>
@@ -110,7 +110,7 @@
 </DBL>
 <DBL>
 <Name>Sample Rate</Name>
-<Val>51199.99999999999990</Val>
+<Val>1000.00000000000000</Val>
 </DBL>
 <I32>
 <Name>Number of Samples</Name>
@@ -118,7 +118,7 @@
 </I32>
 <Boolean>
 <Name>Accel-ai1</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Refnum>
 <Name>DAQmx Task</Name>
