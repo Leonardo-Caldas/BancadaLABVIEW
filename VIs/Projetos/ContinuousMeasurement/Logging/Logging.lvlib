@@ -11,9 +11,11 @@
 		<Item Name="Logging Configuration.ctl" Type="VI" URL="../Logging Configuration.ctl"/>
 		<Item Name="Logging State.ctl" Type="VI" URL="../Logging State.ctl"/>
 	</Item>
+	<Item Name="Tests" Type="Folder"/>
 	<Item Name="Check Trigger Conditions.vi" Type="VI" URL="../Check Trigger Conditions.vi"/>
 	<Item Name="Error Handler - Logging Message Loop.vi" Type="VI" URL="../Error Handler - Logging Message Loop.vi"/>
 	<Item Name="Flush Data to TDMS File.vi" Type="VI" URL="../Flush Data to TDMS File.vi"/>
+	<Item Name="LogFrequencyDomainData.vi" Type="VI" URL="../LogFrequencyDomainData.vi"/>
 	<Item Name="Logging Message Loop.vi" Type="VI" URL="../Logging Message Loop.vi"/>
 	<Item Name="LogTimeDomainData.vi" Type="VI" URL="../LogTimeDomainData.vi"/>
 </Library>

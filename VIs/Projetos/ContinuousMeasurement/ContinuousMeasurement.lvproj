@@ -48,7 +48,6 @@
 		<Item Name="Array of Accelerometers Data.ctl" Type="VI" URL="../Array of Accelerometers Data.ctl"/>
 		<Item Name="LowPassFilter.vi" Type="VI" URL="../LowPassFilter.vi"/>
 		<Item Name="Generate-Sound-PC-Out-WN.vi" Type="VI" URL="../../../Generate-Sound-PC-Out-WN.vi"/>
-		<Item Name="Test_Setup_Check_Trigger.vi" Type="VI" URL="../Logging/Test_Setup_Check_Trigger.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
@@ -309,7 +308,6 @@
 				<Item Name="Get Waveform Time Array.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Get Waveform Time Array.vi"/>
 				<Item Name="WDT Get Waveform Time Array DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Time Array DBL.vi"/>
 				<Item Name="DWDT Get Waveform Time Array.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Get Waveform Time Array.vi"/>
-				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
