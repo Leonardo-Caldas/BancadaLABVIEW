@@ -9,15 +9,15 @@
 <NumElts>17</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\LAV-UFSC-2023\Documents\LabVIEW Data\Logged Data.tdms</Val>
+<Val>C:\Users\LAV-UFSC-2023\Documents\LAV-TCC\Dados-Experimentos\Dados-Bancada-LABVIEW\experimento</Val>
 </Path>
 <U32>
 <Name>Samples to Save</Name>
-<Val>10000</Val>
+<Val>2000</Val>
 </U32>
 <DBL>
 <Name>Acquisition Sample Rate</Name>
-<Val>1000.00000000000000</Val>
+<Val>200.00000000000000</Val>
 </DBL>
 <U32>
 <Name>SamplesPerChannel</Name>
@@ -25,7 +25,7 @@
 </U32>
 <U32>
 <Name>FFT - Block Size</Name>
-<Val>250</Val>
+<Val>100</Val>
 </U32>
 <I32>
 <Name>FFT - NumberOfAverages</Name>
@@ -110,7 +110,7 @@
 </DBL>
 <DBL>
 <Name>Sample Rate</Name>
-<Val>1000.00000000000000</Val>
+<Val>200.00000000000000</Val>
 </DBL>
 <I32>
 <Name>Number of Samples</Name>
