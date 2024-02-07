@@ -6,7 +6,7 @@
 <NumElts>2</NumElts>
 <Cluster>
 <Name>Logging Configuration</Name>
-<NumElts>17</NumElts>
+<NumElts>18</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
 <Val>C:\Users\LAV-UFSC-2023\Documents\LAV-TCC\Dados-Experimentos\Dados-Bancada-LABVIEW\experimento</Val>
@@ -31,10 +31,10 @@
 <Name>FFT - NumberOfAverages</Name>
 <Val>2</Val>
 </I32>
-<U32>
+<I32>
 <Name>Trigger - Time</Name>
 <Val>10</Val>
-</U32>
+</I32>
 <DBL>
 <Name>Trigger - Threshold</Name>
 <Val>0.00000000000000</Val>
@@ -92,6 +92,29 @@
 <Name>HasBeenTriggeredAlready</Name>
 <Val>0</Val>
 </Boolean>
+<Timestamp>
+<Name>Start Time</Name>
+<Cluster>
+<Name></Name>
+<NumElts>4</NumElts>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+</Timestamp>
 </Cluster>
 <Cluster>
 <Name>Hardware Configuration</Name>
