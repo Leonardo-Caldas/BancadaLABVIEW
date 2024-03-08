@@ -9,15 +9,15 @@
 <NumElts>18</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\LAV-UFSC-2023\Documents\LAV-TCC\Dados-Experimentos\Dados-Bancada-LABVIEW\experimento</Val>
+<Val>C:\Users\LAV-UFSC-2023\Documents\LAV-TCC\Dados-Experimentos\Dados-Bancada-LABVIEW\experimento_2024_03_08_17_56_36.tdms</Val>
 </Path>
 <U32>
 <Name>Samples to Save</Name>
-<Val>2000</Val>
+<Val>12800</Val>
 </U32>
 <DBL>
 <Name>Acquisition Sample Rate</Name>
-<Val>200.00000000000000</Val>
+<Val>1600.00000000000000</Val>
 </DBL>
 <U32>
 <Name>SamplesPerChannel</Name>
@@ -25,7 +25,7 @@
 </U32>
 <U32>
 <Name>FFT - Block Size</Name>
-<Val>100</Val>
+<Val>200</Val>
 </U32>
 <I32>
 <Name>FFT - NumberOfAverages</Name>
@@ -33,23 +33,23 @@
 </I32>
 <I32>
 <Name>Trigger - Time</Name>
-<Val>10</Val>
+<Val>0</Val>
 </I32>
 <DBL>
 <Name>Trigger - Threshold</Name>
-<Val>0.00000000000000</Val>
+<Val>0.50000000000000</Val>
 </DBL>
-<U32>
+<I32>
 <Name>Trigger - Channel</Name>
-<Val>0</Val>
-</U32>
+<Val>1</Val>
+</I32>
 <Boolean>
 <Name>Enable Time Trigger</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Enable Threshold Trigger</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Always Log</Name>
@@ -118,7 +118,7 @@
 </Cluster>
 <Cluster>
 <Name>Hardware Configuration</Name>
-<NumElts>8</NumElts>
+<NumElts>9</NumElts>
 <Boolean>
 <Name>Accel-ai0</Name>
 <Val>1</Val>
@@ -132,16 +132,20 @@
 <Val>-10.00000000000000</Val>
 </DBL>
 <DBL>
-<Name>Sample Rate</Name>
-<Val>200.00000000000000</Val>
+<Name>HW Sample Rate</Name>
+<Val>1600.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>SW Sample Rate</Name>
+<Val>800.00000000000000</Val>
 </DBL>
 <I32>
 <Name>Number of Samples</Name>
-<Val>0</Val>
+<Val>12800</Val>
 </I32>
 <Boolean>
 <Name>Accel-ai1</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Refnum>
 <Name>DAQmx Task</Name>
@@ -158,11 +162,11 @@
 </DBL>
 <DBL>
 <Name>Lower Cutoff</Name>
-<Val>0.00000000000000</Val>
+<Val>500.00000000000000</Val>
 </DBL>
 <I32>
 <Name>Order</Name>
-<Val>0</Val>
+<Val>3</Val>
 </I32>
 </Cluster>
 </Cluster>
