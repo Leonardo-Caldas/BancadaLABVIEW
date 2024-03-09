@@ -3,21 +3,21 @@
 <Version>22.3.1f8</Version>
 <Cluster>
 <Name>Settings in</Name>
-<NumElts>2</NumElts>
+<NumElts>3</NumElts>
 <Cluster>
 <Name>Logging Configuration</Name>
-<NumElts>18</NumElts>
+<NumElts>19</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\LAV-UFSC-2023\Documents\LAV-TCC\Dados-Experimentos\Dados-Bancada-LABVIEW\experimento_2024_03_08_17_56_36.tdms</Val>
+<Val>C:\Users\LAV-UFSC-2023\Documents\LabVIEW Data\Logged Data.tdms</Val>
 </Path>
 <U32>
 <Name>Samples to Save</Name>
-<Val>12800</Val>
+<Val>8000</Val>
 </U32>
 <DBL>
 <Name>Acquisition Sample Rate</Name>
-<Val>1600.00000000000000</Val>
+<Val>1000.00000000000000</Val>
 </DBL>
 <U32>
 <Name>SamplesPerChannel</Name>
@@ -25,7 +25,7 @@
 </U32>
 <U32>
 <Name>FFT - Block Size</Name>
-<Val>200</Val>
+<Val>100</Val>
 </U32>
 <I32>
 <Name>FFT - NumberOfAverages</Name>
@@ -44,12 +44,20 @@
 <Val>1</Val>
 </I32>
 <Boolean>
+<Name>Enable Start Output Trigger</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
 <Name>Enable Time Trigger</Name>
 <Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Enable Threshold Trigger</Name>
 <Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>HasBeenTriggeredAlready</Name>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Always Log</Name>
@@ -88,10 +96,6 @@
 <Name>ActualBlockSize</Name>
 <Val>0</Val>
 </I32>
-<Boolean>
-<Name>HasBeenTriggeredAlready</Name>
-<Val>0</Val>
-</Boolean>
 <Timestamp>
 <Name>Start Time</Name>
 <Cluster>
@@ -133,15 +137,15 @@
 </DBL>
 <DBL>
 <Name>HW Sample Rate</Name>
-<Val>1600.00000000000000</Val>
+<Val>1000.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>SW Sample Rate</Name>
-<Val>800.00000000000000</Val>
+<Val>500.00000000000000</Val>
 </DBL>
 <I32>
 <Name>Number of Samples</Name>
-<Val>12800</Val>
+<Val>8000</Val>
 </I32>
 <Boolean>
 <Name>Accel-ai1</Name>
@@ -162,13 +166,128 @@
 </DBL>
 <DBL>
 <Name>Lower Cutoff</Name>
-<Val>500.00000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <I32>
 <Name>Order</Name>
-<Val>3</Val>
+<Val>0</Val>
 </I32>
 </Cluster>
+</Cluster>
+<Cluster>
+<Name>Output Hardware Configuration</Name>
+<NumElts>4</NumElts>
+<U32>
+<Name>Task ID</Name>
+<Val>0</Val>
+</U32>
+<DBL>
+<Name>Volume</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<Cluster>
+<Name>Data</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>SignalType</Name>
+<Choice>WhiteNoise</Choice>
+<Choice>SineWave</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>WhiteNoiseSettings</Name>
+<NumElts>4</NumElts>
+<Boolean>
+<Name>Generate New Data</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Save</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Filter</Name>
+<Val>1</Val>
+</Boolean>
+<I32>
+<Name>Gain</Name>
+<Val>2</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>SineWaveSttings</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Frequency</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Amplitude</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<DBLWaveform>
+<Name>Generated Data</Name>
+<Cluster>
+<Name></Name>
+<NumElts>5</NumElts>
+<Timestamp>
+<Name>t0</Name>
+<Cluster>
+<Name></Name>
+<NumElts>4</NumElts>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+</Timestamp>
+<DBL>
+<Name>dt</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<Array>
+<Name>Y</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name></Name>
+<Val></Val>
+</DBL>
+</Array>
+<Cluster>
+<Name>error</Name>
+<NumElts>3</NumElts>
+<Boolean>
+<Name>status</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>code</Name>
+<Val>0</Val>
+</I32>
+<String>
+<Name>source</Name>
+<Val></Val>
+</String>
+</Cluster>
+<LvVariant>
+<Name>attributes</Name>
+</LvVariant>
+</Cluster>
+</DBLWaveform>
 </Cluster>
 </Cluster>
 </LVData>
