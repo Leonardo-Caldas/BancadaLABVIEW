@@ -17,7 +17,7 @@
 </U32>
 <DBL>
 <Name>Acquisition Sample Rate</Name>
-<Val>1000.00000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <U32>
 <Name>SamplesPerChannel</Name>
@@ -145,7 +145,7 @@
 </DBL>
 <I32>
 <Name>Number of Samples</Name>
-<Val>10000</Val>
+<Val>10</Val>
 </I32>
 <Boolean>
 <Name>Accel-ai1</Name>
