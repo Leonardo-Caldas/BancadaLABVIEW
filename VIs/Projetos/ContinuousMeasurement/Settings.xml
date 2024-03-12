@@ -9,11 +9,11 @@
 <NumElts>19</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\LAV-UFSC-2023\Documents\LabVIEW Data\Logged Data.tdms</Val>
+<Val>C:\Users\LAV-UFSC-2023\Documents\LAV-TCC\Dados-Experimentos\Dados-Bancada-LABVIEW\experimento.tdms</Val>
 </Path>
 <U32>
 <Name>Samples to Save</Name>
-<Val>8000</Val>
+<Val>10000</Val>
 </U32>
 <DBL>
 <Name>Acquisition Sample Rate</Name>
@@ -45,7 +45,7 @@
 </I32>
 <Boolean>
 <Name>Enable Start Output Trigger</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Enable Time Trigger</Name>
@@ -145,7 +145,7 @@
 </DBL>
 <I32>
 <Name>Number of Samples</Name>
-<Val>8000</Val>
+<Val>10000</Val>
 </I32>
 <Boolean>
 <Name>Accel-ai1</Name>
