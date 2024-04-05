@@ -29,7 +29,7 @@
 </U32>
 <I32>
 <Name>FFT - NumberOfAverages</Name>
-<Val>2</Val>
+<Val>5</Val>
 </I32>
 <I32>
 <Name>Trigger - Time</Name>
@@ -41,11 +41,11 @@
 </DBL>
 <I32>
 <Name>Trigger - Channel</Name>
-<Val>1</Val>
+<Val>0</Val>
 </I32>
 <Boolean>
 <Name>Enable Start Output Trigger</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Enable Time Trigger</Name>
@@ -207,11 +207,11 @@
 </Boolean>
 <Boolean>
 <Name>Filter</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <I32>
 <Name>Gain</Name>
-<Val>2</Val>
+<Val>1</Val>
 </I32>
 </Cluster>
 <Cluster>
