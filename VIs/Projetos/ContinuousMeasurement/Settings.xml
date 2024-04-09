@@ -9,11 +9,11 @@
 <NumElts>19</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\LAV-UFSC-2023\Documents\LabVIEW Data\Logged Data.tdms</Val>
+<Val>C:\Users\LAV-UFSC-2023\Documents\LAV-TCC\Dados-Experimentos\Dados-Bancada-LABVIEW\06-04-2024\teste</Val>
 </Path>
 <U32>
 <Name>Samples to Save</Name>
-<Val>10000</Val>
+<Val>2000</Val>
 </U32>
 <DBL>
 <Name>Acquisition Sample Rate</Name>
@@ -33,11 +33,11 @@
 </I32>
 <I32>
 <Name>Trigger - Time</Name>
-<Val>0</Val>
+<Val>5</Val>
 </I32>
 <DBL>
 <Name>Trigger - Threshold</Name>
-<Val>0.00000000000000</Val>
+<Val>10.00000000000000</Val>
 </DBL>
 <I32>
 <Name>Trigger - Channel</Name>
@@ -45,7 +45,7 @@
 </I32>
 <Boolean>
 <Name>Enable Start Output Trigger</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Enable Time Trigger</Name>
@@ -53,7 +53,7 @@
 </Boolean>
 <Boolean>
 <Name>Enable Threshold Trigger</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>HasBeenTriggeredAlready</Name>
@@ -69,19 +69,24 @@
 </Boolean>
 <Cluster>
 <Name>FilesRefs</Name>
-<NumElts>3</NumElts>
+<NumElts>4</NumElts>
 <Refnum>
 <Name>TimeDomainTDMSRef</Name>
 <RefKind>TDMS File</RefKind>
 <Val>0x00000000</Val>
 </Refnum>
 <Refnum>
-<Name>FreuencyDomainTDMSRef</Name>
+<Name>FrequencyDomainTDMSRef</Name>
 <RefKind>TDMS File</RefKind>
 <Val>0x00000000</Val>
 </Refnum>
 <Refnum>
-<Name>TXT-FileRef</Name>
+<Name>TimeDomainTXTRef</Name>
+<RefKind>Byte Stream File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>FrequencyDomainTXTRef </Name>
 <RefKind>Byte Stream File</RefKind>
 <Val>0x00000000</Val>
 </Refnum>
@@ -145,7 +150,7 @@
 </DBL>
 <I32>
 <Name>Number of Samples</Name>
-<Val>10</Val>
+<Val>2</Val>
 </I32>
 <Boolean>
 <Name>Accel-ai1</Name>
@@ -191,17 +196,21 @@
 </DBL>
 <I32>
 <Name>Duration</Name>
-<Val>15</Val>
+<Val>10</Val>
 </I32>
 <Cluster>
 <Name>Data</Name>
-<NumElts>3</NumElts>
+<NumElts>4</NumElts>
 <EW>
 <Name>SignalType</Name>
 <Choice>WhiteNoise</Choice>
 <Choice>SineWave</Choice>
 <Val>0</Val>
 </EW>
+<DBL>
+<Name>Amplitude</Name>
+<Val>44099.99999999999990</Val>
+</DBL>
 <Cluster>
 <Name>WhiteNoiseSettings</Name>
 <NumElts>4</NumElts>
@@ -224,13 +233,9 @@
 </Cluster>
 <Cluster>
 <Name>SineWaveSttings</Name>
-<NumElts>2</NumElts>
+<NumElts>1</NumElts>
 <DBL>
 <Name>Frequency</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Amplitude</Name>
 <Val>0.00000000000000</Val>
 </DBL>
 </Cluster>
